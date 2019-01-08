@@ -1,0 +1,50 @@
+{
+  "name": "big-upload",
+  "version": "1.0.0",
+  "description": "* Basic React setup",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "fs": "0.0.1-security",
+    "pako": "^1.0.7",
+    "qs": "^6.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "fibers": "^3.1.1",
+    "node-sass": "^4.10.0",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "test": "none",
+    "webpack": "webpack --watch",
+    "start": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcidis-de/webpack-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xcidis-de/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/xcidis-de/webpack-starter#readme"
+}
